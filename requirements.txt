@@ -1,5 +1,5 @@
-torch==2.1.0
-torchaudio==2.1.0
+torch>=2
+torchaudio>=2
 torchvision==0.16.0
 tqdm==4.65.0
 git+https://github.com/openai/CLIP.git
@@ -15,6 +15,7 @@ protobuf==4.23.2
 accelerate==0.20.3
 tokenizers>=0.13.3
 pydantic==1.10.7
+nltk
 git+https://github.com/m-bain/whisperx.git
 git+https://github.com/shehanmunasinghe/whisper-at.git@patch-1#subdirectory=package/whisper-at
 git+https://github.com/xinyu1205/recognize-anything.git
